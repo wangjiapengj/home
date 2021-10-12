@@ -22,11 +22,15 @@ h1 a:hover {
 	color: black;
 }
 
+h1 a.active {
+    background-color: rgb(255, 153, 255);
+    color: black;
+}
+
 /* Get rid of the space between the navigation bar and the sides of the page */
-body 
-{
-     margin:0;
-     background-color: #ffe6ff;
+body {
+    margin:0;
+    background-color: #ffe6ff;
 }
 
 #main_title {
@@ -38,6 +42,7 @@ body
 	background-color: rgb(255, 179, 255);
 	border: rgb(230, 0, 230) dashed;
 	z-index: 1;
+	font-family: 
 }
 
 /* Aligns title to the center vertically and horizontally */
