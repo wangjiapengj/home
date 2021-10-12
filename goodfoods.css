@@ -1,0 +1,57 @@
+nav {
+	position: fixed;
+	margin: 0;
+  	padding: 0;
+ 	width: 200px;
+ 	height: 100%;
+ 	background-color: rgb(255, 204, 255);
+}
+
+h1 a {
+	display: block;
+ 	color: black;
+ 	padding: 8px 16px;
+ 	text-decoration: none;
+ 	text-align: center;
+ 	border: #ff33ff outset;
+}
+
+/* Change the link color on hover */
+h1 a:hover {
+	background-color: rgb(255, 153, 255);
+	color: black;
+}
+
+/* Get rid of the space between the navigation bar and the sides of the page */
+body 
+{
+     margin:0;
+     background-color: #ffe6ff;
+}
+
+#main_title {
+	display: block;
+	position: fixed;
+	width: 99.5%;
+	text-align: center;
+	margin: 0;
+	background-color: rgb(255, 179, 255);
+	border: rgb(230, 0, 230) dashed;
+	z-index: 1;
+}
+
+/* Aligns title to the center vertically and horizontally */
+header {
+	height: 75px;
+	line-height: 75px;
+	text-align: center;
+}
+
+.main_content {
+	margin-left: 220px;
+	margin-top: -5px;
+}
+
+#paragraph_size {
+	font-size: 21px;
+}
